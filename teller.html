@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teller</title>
+
+    <link rel="stylesheet" href="teller.css" />
+    <script src="teller.js"></script>
+
+</head>
+
+<body>
+    <div id="output" class="output">0</div>
+    <button onclick="setNum1()" class="button vertical">Increase number by 1</button>
+    <button onclick="setNum10()" class="button vertical">Increase number by 10</button>
+    <button onclick="setNum100()" class="button vertical">Increase number by 100</button>
+    <button onclick="setNum1000()" class="button vertical">Increase number by 1000</button>
+    <button onclick="setNum2()" class="button vertical2">Decrease number by 1</button>
+    <button onclick="setNum20()" class="button vertical2">Decrease number by 10</button>
+    <button onclick="setNum200()" class="button vertical2">Decrease number by 100</button>
+    <button onclick="setNum2000()" class="button vertical2">Decrease number by 1000</button>
+</body>
+
+<script>
+    var outputDiv = document.getElementById('output');
+
+    var numToShow = 0;
+</script>
+
+</html>
